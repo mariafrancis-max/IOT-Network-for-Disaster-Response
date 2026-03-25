@@ -1,0 +1,26 @@
+{
+  "name": "iot-disaster-response",
+  "version": "1.0.0",
+  "description": "Self-Organizing Edge Network for Disaster Response IoT",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "cd backend && node server.js",
+    "dev": "cd backend && npx nodemon server.js",
+    "arduino": "python arduino-bridge.py",
+    "arduino:node": "node arduino-bridge.js",
+    "install-backend": "cd backend && npm install"
+  },
+  "keywords": [
+    "IoT",
+    "Disaster",
+    "Response",
+    "EdgeNetwork",
+    "Arduino"
+  ],
+  "author": "Your Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "serialport": "^13.0.0"
+  }
+}
